@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="/midia/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="/midia/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="midia/favicon_B.png">
+
+  <title>Contato - BrandExpress AI</title>
+
+  <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <a href="index.html">
+        <img src="midia/logo.png" alt="Logo" class="logo-icon">
+      </a>
+      <strong>BrandExpress AI</strong>
+    </div>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="oque-fazemos.html">O que fazemos</a>
+      <a href="como-funciona.html">Como funciona</a>
+      <a href="precos.html">Preços</a>
+      <a href="formulario.html">Contato</a>
+    </nav>
+  </header>
+
+  <h1>Faça seu pedido</h1>
+  <p class="principal">Preencha o formulário para contratar seu pacote</p>
+
+  <main>
+    <form id="pedidoForm">
+      <input type="hidden" name="_subject" value="Novo pedido de identidade">
+      <label>Seu nome:
+        <input type="text" name="nome" required>
+      </label>
+      <label>Seu e-mail:
+        <input type="email" name="email" required>
+      </label>
+      <label>Escolha o pacote:
+        <select name="pacote">
+          <option value="Nome Rápido">Básico - R$29,00</option>
+          <option value="Identidade Completa">Premium Completo - R$59,00</option>
+        </select>
+      </label>
+      <label>Detalhes do projeto:
+        <textarea name="mensagem" rows="6"></textarea>
+      </label>
+      <button type="submit">Enviar Pedido</button>
+    </form>
+
+    <div class="popup" id="popup">
+      <div class="popup-content">
+        <h2>SEU FORMULÁRIO FOI ENVIADO COM SUCESSO</h2>
+        <p>AGUARDE A RESPOSTA DO NOSSO TIME.</p>
+        <button onclick="window.location.href='index.html'">Fechar</button>
+      </div>
+    </div>
+  </main>
+
+  <script src="formulario.js"></script>
+</body>
+</html>

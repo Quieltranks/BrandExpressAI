@@ -1,0 +1,303 @@
+ /* conteudo original abaixo**/ 
+
+ body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #222;
+  padding: 2em;
+}
+header {
+  text-align: center;
+  margin-bottom: 2em;
+}
+form {
+  max-width: 600px;
+  margin: auto;
+  background: #f3f3f3;
+  padding: 2em;
+  border-radius: 8px;
+}
+label {
+  display: block;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+input, textarea, select, button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+button {
+  background-color: #6e00ff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #4d00b3;
+}
+
+
+/* home */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+body {
+  background: #fff;
+  color: #111;
+  padding: 2rem;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+nav a {
+  margin-left: 1.5rem;
+  text-decoration: none;
+  color: #fffafa;
+  font-weight: 500;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.logo-icon {
+  width: 40px;
+  height: 40px;
+}
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+h2 {
+  font-size: 1.5rem;
+  margin: 2rem 0 1rem;
+}
+.section {
+  max-width: 720px;
+}
+ul {
+  list-style: none;
+  margin-top: 1rem;
+}
+ul li::before {
+  content: "✔";
+  margin-right: 0.5rem;
+  color: #6C63FF;
+}
+.precos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 30px;
+}
+
+.pacote {
+  flex: 1 1 300px;
+  max-width: 400px;
+}
+
+.pacote h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+.pacote ul {
+  margin-top: 0.5rem;
+}
+.botao {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  background: #6C63FF;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 8px;
+}
+
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #0e0e11;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: #6C63FF;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: #a89cff;
+}
+
+/* HEADER */
+header {
+  background-color: #1a1a1f;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #333;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img.logo-icon {
+  height: 40px;
+}
+
+nav a {
+  margin-left: 25px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+/* SECTIONS */
+.section {
+  padding: 60px 40px;
+}
+
+/* TÍTULOS */
+h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+h2, h3 {
+  color: #ddddff;
+}
+
+/* LISTAS */
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  padding: 10px 0;
+  border-bottom: 1px solid #2b2b2b;
+}
+
+/* PREÇOS */
+
+.precos {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.pacote {
+  background-color: #1e1e25;
+  padding: 15px;
+  border-radius: 15px;
+  border: 1px solid #2b2b2b;
+  width: 100%;
+  max-width: 400px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.pacote:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(108, 99, 255, 0.2);
+}
+
+.pacote h3 {
+  font-size: 20px;
+  color: #6C63FF;
+  margin-bottom: 15px;
+}
+
+.pacote ul li {
+  color: #cccccc;
+  border-bottom: none;
+  font-size: 15px;
+}
+
+/* BOTÕES */
+button, .btn {
+  padding: 12px 24px;
+  background-color: #6C63FF;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover, .btn:hover {
+  background-color: #544eff;
+}
+
+/* Formulário */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input, textarea, select {
+  padding: 10px;
+  background-color: #2b2b2b;
+  border: 1px solid #444;
+  color: #fff;
+  border-radius: 5px;
+}
+
+/* Animações leves */
+.fade-in {
+  animation: fadeIn 1s ease forwards;
+  opacity: 0;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .precos {
+    flex-direction: column;
+  }
+
+  nav a {
+    margin-left: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .precos {
+    flex-direction: column;
+    align-items: center;
+  }
+}
